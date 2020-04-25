@@ -2,6 +2,8 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
+import preaching from './images/preaching.jpg'
+
 
 const Vision = () => {
     return(
@@ -9,7 +11,7 @@ const Vision = () => {
             <Container className="vision">
                 <Row>
                     <Col>
-                    <h1>Vision and  Mission</h1>
+                    <h2 className="text-center">Vision and  Mission</h2>
                     <p>C3 Alive  is a church that is fresh, real, powerful,and has
                     at its heart the Great Commission to win souls and make 
                     disciples of all nations. A church that impacts the city and 
@@ -20,6 +22,7 @@ const Vision = () => {
                     </Col>
 
                     <Col>
+                    <img  src={preaching} alt="" />
                     
 
                     </Col>

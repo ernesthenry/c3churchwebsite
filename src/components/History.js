@@ -2,6 +2,7 @@ import React from 'react'
 import Container from 'react-bootstrap/Container'
 import Col from 'react-bootstrap/Col'
 import Row from 'react-bootstrap/Row'
+import worship from './images/worship.jpg'
 
 const History = () => {
     return(
@@ -9,11 +10,12 @@ const History = () => {
             <Container className="history">
                 <Row>
                     <Col>
+                    <img  src={worship} alt="images"/>
                     
                     </Col>
 
                     <Col>
-                    <h1>History</h1>
+                    <h2 className="text-center">History </h2>
                     <p>C3 Alive  is a church that is fresh, real, powerful,and has
                     at its heart the Great Commission to win souls and make 
                     disciples of all nations. A church that impacts the city and 

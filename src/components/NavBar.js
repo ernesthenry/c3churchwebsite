@@ -1,43 +1,69 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import Navbar from 'react-bootstrap/Navbar'
 import Nav from 'react-bootstrap/Nav'
-import NavDropdown from 'react-bootstrap/NavDropdown'
+import logoc3 from './images/logoc3.png'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
 
 
 const NavBar = () => {
     return (
-        <div className="Navbar">
+        <>
+        <Container fluid className="bg-primary">
+            <Row className=" top-bar" style={{ 'padding-bottom':'5px' }}>
+                <div className="col-text-left">
+                    <span className="text-white">
+                        <i className="fa fa-facebook"></i>
+                    </span>
+                    <span className="text-white">
+                        <i className="fa fa-skype"></i>
+                    </span>
+                    <span className="text-white">
+                        <i className="fa fa-twitter"></i>
+                    </span>
+                    <span className="text-white">
+                        <i className="fa fa-youtube"></i>
+                    </span> 
+                </div>
+
+                <div className="col text-right">
+                    <span className="text-white">
+                        <i className="fa fa-phone"></i>
+                        +256 80000 9999993
+                    </span> 
+
+                    <span className="text-white">
+                        <i className="fa fa-envelope"></i>
+                        +256 80000 9999993
+                    </span>
+                </div>
+
+            </Row>
+        </Container>
+        
+        <Container fluid className="Navbar">
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand href="#home">C3 Alive</Navbar.Brand>
+                <Navbar.Brand href="#home" className="navbar-brand"><img  src={logoc3} alt="logo"/> <i>ALIVE</i></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="mr-auto">
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">MINISTRIES</Nav.Link>
-                        <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-                        <NavDropdown.Item href="#action/3.1">Kids</NavDropdown.Item>
-                        <NavDropdown.Item href="#action/3.1">Kids</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.1">Kids</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.2">Youth</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Cherish Women</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Hy Team</NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3">Muscle Team</NavDropdown.Item>
-                            <NavDropdown.Divider />
-                            <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-                        </NavDropdown>
+                    <Nav className="ml-auto">
+                        <NavLink to='/' className="nav-link">HOME</NavLink>
+                        <NavLink to='/about-us' className="nav-link">ABOUT</NavLink>
+                        <NavLink to='/ministries' className="nav-link">MINISTRIES</NavLink>
+                        <NavLink to='/giving' className="nav-link">GIVING</NavLink>
+                        <NavLink to='/contact-us' className="nav-link">CONTACT US</NavLink>
+                        <NavLink to='/vision-builders' className="nav-link">VISION BUILDERS</NavLink>
+                        <NavLink to='/next-steps' className="nav-link">NEXT STEPS</NavLink>
+
                     </Nav>
-                    <Nav>
-                        <Nav.Link href="#deets">More deets</Nav.Link>
-                        <Nav.Link eventKey={2} href="#memes">
-                            Dank memes
-                        </Nav.Link>
-                    </Nav>
+                    
                 </Navbar.Collapse>
             </Navbar>
-            
-
-        </div>
-    )
+        </Container>
+        </>
+    
+            )
 }
 
 export  default NavBar;

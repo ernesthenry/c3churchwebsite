@@ -11,10 +11,17 @@ const Donate = () => {
             <Row>
             <Col>
             <Jumbotron>
-                <h1>Your support is changing lives.</h1>
-                <p>This is a simple hero unit, a simple jumbotron-style component for calling
-                    extra attention to featured content or information.</p>
-                <p><Button variant="primary">Donate</Button></p>
+                <div className="text-center" style={{"font-size": "20px"}}>
+                <h2 style={{"font-variant": "small-caps"}}>THANK YOU FOR YOUR GENEROSITY</h2>
+                <p>Your contribution is making a difference. Your support helps
+                    reach the lost and build the church. If you would like to contribute financially, click the button below to our secure payment
+                    gateway.</p>
+                    <a href="#" className="btn btn-primary btn-lg showcase-btn">ONLINE GIVING</a><br />
+                    <a href="#" className="pt-2 " style={{"font-size":"20px", "text-decoration": "none"}}>TEN REASONS WHY I
+                        BELIEVE IN GIVING</a>
+
+                </div>
+               
             </Jumbotron>
 
             </Col>
