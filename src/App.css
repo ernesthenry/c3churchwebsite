@@ -40,15 +40,11 @@ body {
   border-radius: 30%;
   padding: 10px;
 }
-
-.history  img{
-  height: 50vh;
-  width: 80%;
-  margin: 12px;
-  border-radius: 20px;
-  padding: 10px;
-  overflow: hidden;
+.history p{
+  font-size: 30px;
+  font-style: italic;
 }
+
 
 .vision  img{
   height: 50vh;
