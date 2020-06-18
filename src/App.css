@@ -33,6 +33,12 @@ body {
 .active .nav-link {
   color: #00e8e8 !important;
 }
+/* .latest-sermon{
+  background-image: url(./images/preaching.png);
+  background-attachment: fixed;
+  background-size: cover;
+} */
+
 .lead  img{
   height: 85vh;
   width: 100%;
@@ -48,7 +54,7 @@ body {
 
 .vision  img{
   height: 50vh;
-  width: 100%;
+  width: 50%;
   margin: 12px;
   border-radius: 20px;
   padding: 10px;

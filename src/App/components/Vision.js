@@ -1,16 +1,16 @@
 import React from 'react'
-import Container from 'react-bootstrap/Container'
-import Col from 'react-bootstrap/Col'
-import Row from 'react-bootstrap/Row'
 import preaching from './images/preaching.jpg'
-
 
 const Vision = () => {
     return(
-        <div>
-            <Container className="vision">
-                <Row>
-                    <Col className='col-xs-6 col-sm-6  col-md-6'>
+            <div className="container vision">
+                <div className='row'>
+
+                <div classname='col-md-6'>
+                    <img  src={preaching} alt="" /> 
+                </div>
+
+                <div className=' col-md-6 col-xs-6col-sm-6'>
                     <h2 className="text-center">Vision and  Mission</h2>
                     <p>C3 Alive  is a church that is fresh, real, powerful,and has
                     at its heart the Great Commission to win souls and make 
@@ -19,18 +19,12 @@ const Vision = () => {
                      a culture and atmosphere of faith, hope, and love. A church that
                     develops leaders and empowers people to become all that God had 
                     purposed and destined for their lives.</p>
-                    </Col>
-
-                    <Col classname='col-xs-6 col-sm-6  col-md-6'>
-                    <img  src={preaching} alt="" />
-                    
-
-                    </Col>
-                </Row>
-            </Container>
+                </div>
 
 
-        </div>
+                </div>
+            </div>
+
     )
 }
 
