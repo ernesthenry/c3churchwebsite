@@ -17,7 +17,7 @@ const LocationPastors = () => {
         </div>
          
         <Row className="pastors">
-            <Col>
+            <Col className='col-xs-3'>
                 <Card className="location-pastors">
                     <Card.Img variant="top" src={edwin} className="img-fluid rounded-circle w-50 mb-3"/>
                     <Card.Body>
@@ -48,7 +48,7 @@ const LocationPastors = () => {
             
             </Col>
         
-            <Col>
+            <Col className='col-xs-3'>
                 <Card className="location-pastors">
                     <Card.Img variant="top" src={wairege} className="img-fluid rounded-circle w-50 mb-3" />
                     <Card.Body>
@@ -78,7 +78,7 @@ const LocationPastors = () => {
                 </Card>
             </Col>
 
-            <Col>
+            <Col className='col-xs-3'>
                 <Card className="location-pastors">
                     <Card.Img variant="top" src={chris} className="img-fluid rounded-circle w-50 mb-3"/>
                     <Card.Body>
@@ -108,7 +108,7 @@ const LocationPastors = () => {
                 </Card>
             </Col>
 
-            <Col>
+            <Col className='col-xs-3'>
             <Card className="location-pastors"><Card.Img variant="top" src={fabian} className="img-fluid rounded-circle w-50 mb-3"/>
                     <Card.Body>
                         <Card.Title><h3>Fabian Semugenyi</h3></Card.Title>

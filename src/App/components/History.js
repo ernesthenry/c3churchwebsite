@@ -9,12 +9,12 @@ const History = () => {
         <div>
             <Container className="history">
                 <Row>
-                    <Col>
+                    <Col className='col-xs-6'>
                     <img  src={worship} alt="images"/>
                     
                     </Col>
 
-                    <Col>
+                    <Col className='col-xs-6'>
                     <h2 className="text-center">History </h2>
                     <p>C3 Alive  is a church that is fresh, real, powerful,and has
                     at its heart the Great Commission to win souls and make 

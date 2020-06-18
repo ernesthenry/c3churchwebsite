@@ -5,14 +5,14 @@ import {
    HashRouter as Router
 } from 'react-router-dom'
 import './App.css';
-import Home from './components/Home'
-import NavBar from './components/NavBar'
-import About from './pages/About'
-import ContactUs from './pages/ContactUs'
-import Giving from './pages/Giving'
-import Ministries from './pages/Ministries'
-import NextStep from './pages/NextStep'
-import VisionBuilders from './pages/VisionBuilders'
+import Home from './App/components/Home'
+import NavBar from './App/components/NavBar'
+import About from './App/pages/About'
+import ContactUs from './App/pages/ContactUs'
+import Giving from './App/pages/Giving'
+import Ministries from './App/pages/Ministries'
+import NextStep from './App/pages/NextStep'
+import VisionBuilders from './App/pages/VisionBuilders'
 
 
 function App() {

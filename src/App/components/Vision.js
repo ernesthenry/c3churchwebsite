@@ -10,7 +10,7 @@ const Vision = () => {
         <div>
             <Container className="vision">
                 <Row>
-                    <Col>
+                    <Col className='col-xs-6'>
                     <h2 className="text-center">Vision and  Mission</h2>
                     <p>C3 Alive  is a church that is fresh, real, powerful,and has
                     at its heart the Great Commission to win souls and make 
@@ -21,7 +21,7 @@ const Vision = () => {
                     purposed and destined for their lives.</p>
                     </Col>
 
-                    <Col>
+                    <Col classname='col-xs-6'>
                     <img  src={preaching} alt="" />
                     
 

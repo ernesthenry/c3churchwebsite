@@ -50,7 +50,7 @@ const NavBar = () => {
                     <Nav className="ml-auto">
                         <NavLink to='/' className="nav-link">HOME</NavLink>
                         <NavLink to='/about-us' className="nav-link">ABOUT</NavLink>
-                        <NavLink to='/ministries' className="nav-link">MINISTRIES</NavLink>
+                        <NavLink to='/ministries' className="nav-link">SERVING TEAMS</NavLink>
                         <NavLink to='/giving' className="nav-link">GIVING</NavLink>
                         <NavLink to='/contact-us' className="nav-link">CONTACT US</NavLink>
                         <NavLink to='/vision-builders' className="nav-link">VISION BUILDERS</NavLink>

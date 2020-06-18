@@ -2,7 +2,7 @@
   "name": "c3alivewebsite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://github.com/ernesthenry/c3churchwebsite",
+  "homepage": "http://ernesthenry.github.io/c3churchwebsite",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",

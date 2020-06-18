@@ -14,7 +14,7 @@ const ExecutiveTeam = () => {
          <h2 className="text-center">The Executive Team</h2>
         <p className="mt-3 text-center" style={{"font-size":"20px"}}>Meet our Location Directors across  four locations</p>
         <Row className="mb-5">
-            <Col>
+            <Col className='col-xs-3'>
                 <Card  className="executives">
                     <Card.Img variant="top" src={annet} className="image"/>
                     <Card.Body>
@@ -28,7 +28,7 @@ const ExecutiveTeam = () => {
             
             </Col>
         
-            <Col>
+            <Col className='col-xs-3'>
                 <Card className="executives">
                     <Card.Img variant="top" src={Neghema} />
                     <Card.Body>
@@ -41,7 +41,7 @@ const ExecutiveTeam = () => {
                 </Card>
             </Col>
 
-            <Col>
+            <Col className='col-xs-3'>
                 <Card className="executives">
                     <Card.Img variant="top" src={benson} />
                     <Card.Body>
@@ -53,7 +53,7 @@ const ExecutiveTeam = () => {
                     </Card.Body>
                 </Card>
             </Col>
-            <Col>
+            <Col className='col-xs-3'>
                 <Card className="executives">
                     <Card.Img variant="top" src={robert} />
                     <Card.Body>
