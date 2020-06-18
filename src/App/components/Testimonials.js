@@ -13,7 +13,7 @@ const Testimonials = () => {
                 <div className='col-sm-6 col-xs-6 col-md-4 text-center testimony'>
                     <div className="profile">
                         <img src={ernest} alt="ernest" className="user" />
-                        <blockquote>My life changed when i joined C3 Alive. Before i was a drug addict. I got redeemed and my life has never been the same.</blockquote>
+                        <blockquote>My life changed when i joined C3 Alive. Before i was influenced by wrong decision making. I got redeemed and my life has never been the same.</blockquote>
                         <h3>Kato Ernest Henry</h3>
                         <p><span>Software Developer</span></p>
                     </div>

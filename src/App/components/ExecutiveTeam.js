@@ -8,7 +8,7 @@ import fabian from './images/fabian.jpg'
 
 const ExecutiveTeam = () => {
     return(
-        <div className='container text-center'>
+        <div className='container text-center executive-teams'>
          <h2 className="text-center">The Executive Team</h2>
         <p className="mt-3 text-center" style={{"font-size":"20px"}}>Meet our Location Directors across  four locations</p>
         <div className="row mb-5">

@@ -7,7 +7,7 @@ import edwin from './images/edwin.jpg'
 
 const LocationPastors = () => {
     return(
-        <div className='container'>
+        <div className='container location-pastors'>
             <div className="team my-3 py-5 text-center" >
         <div className="mb-5 text-center ">
         <h2>Location Pastors</h2>
