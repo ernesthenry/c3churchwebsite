@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7715d964da7b872bc5d5ab1ae8865639",
+    "revision": "7dab08b5dacc8f2579cdbe8f6e6e7706",
     "url": "/c3churchwebsite/index.html"
   },
   {
-    "revision": "efbaabbfe3df900ca309",
+    "revision": "8073f31b2f2db626fbb2",
     "url": "/c3churchwebsite/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "8690b8d0d12b62298987",
-    "url": "/c3churchwebsite/static/css/main.344871f4.chunk.css"
+    "revision": "d653e0253535ac6945f4",
+    "url": "/c3churchwebsite/static/css/main.c96226a4.chunk.css"
   },
   {
-    "revision": "efbaabbfe3df900ca309",
-    "url": "/c3churchwebsite/static/js/2.d3dae57b.chunk.js"
+    "revision": "8073f31b2f2db626fbb2",
+    "url": "/c3churchwebsite/static/js/2.686cff3f.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/c3churchwebsite/static/js/2.d3dae57b.chunk.js.LICENSE.txt"
+    "url": "/c3churchwebsite/static/js/2.686cff3f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8690b8d0d12b62298987",
-    "url": "/c3churchwebsite/static/js/main.7a06d419.chunk.js"
+    "revision": "d653e0253535ac6945f4",
+    "url": "/c3churchwebsite/static/js/main.09c372b9.chunk.js"
   },
   {
     "revision": "63b6b70e07850bdccf77",
@@ -78,9 +78,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1a19c99b126060333cea19b2a153cfdb",
     "url": "/c3churchwebsite/static/media/wairege.1a19c99b.jpg"
-  },
-  {
-    "revision": "74c469196f1c336c77b9387345590deb",
-    "url": "/c3churchwebsite/static/media/worship.74c46919.jpg"
   }
 ]);
