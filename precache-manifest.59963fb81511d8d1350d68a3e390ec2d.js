@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "82420332de15123c11a6e6ab380a824e",
+    "revision": "7dd5edf7555aecc9f2e5ddac19f4c5a2",
     "url": "/c3churchwebsite/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/c3churchwebsite/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "111ba76f0e5f5e173926",
-    "url": "/c3churchwebsite/static/css/main.03468236.chunk.css"
+    "revision": "c83d018596f3944dd439",
+    "url": "/c3churchwebsite/static/css/main.af3d014c.chunk.css"
   },
   {
     "revision": "ae66194ca6636ebb4bd4",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/c3churchwebsite/static/js/2.53cd257f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "111ba76f0e5f5e173926",
-    "url": "/c3churchwebsite/static/js/main.fbb4238c.chunk.js"
+    "revision": "c83d018596f3944dd439",
+    "url": "/c3churchwebsite/static/js/main.ee1935a0.chunk.js"
   },
   {
     "revision": "63b6b70e07850bdccf77",
