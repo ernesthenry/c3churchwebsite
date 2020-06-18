@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/c3churchwebsite/static/css/main.af3d014c.chunk.css",
-    "main.js": "/c3churchwebsite/static/js/main.ee1935a0.chunk.js",
-    "main.js.map": "/c3churchwebsite/static/js/main.ee1935a0.chunk.js.map",
+    "main.css": "/c3churchwebsite/static/css/main.e2b5f74f.chunk.css",
+    "main.js": "/c3churchwebsite/static/js/main.fb2c4e53.chunk.js",
+    "main.js.map": "/c3churchwebsite/static/js/main.fb2c4e53.chunk.js.map",
     "runtime-main.js": "/c3churchwebsite/static/js/runtime-main.e36e6d6f.js",
     "runtime-main.js.map": "/c3churchwebsite/static/js/runtime-main.e36e6d6f.js.map",
     "static/css/2.de424728.chunk.css": "/c3churchwebsite/static/css/2.de424728.chunk.css",
-    "static/js/2.53cd257f.chunk.js": "/c3churchwebsite/static/js/2.53cd257f.chunk.js",
-    "static/js/2.53cd257f.chunk.js.map": "/c3churchwebsite/static/js/2.53cd257f.chunk.js.map",
+    "static/js/2.a3bfef72.chunk.js": "/c3churchwebsite/static/js/2.a3bfef72.chunk.js",
+    "static/js/2.a3bfef72.chunk.js.map": "/c3churchwebsite/static/js/2.a3bfef72.chunk.js.map",
     "index.html": "/c3churchwebsite/index.html",
-    "precache-manifest.59963fb81511d8d1350d68a3e390ec2d.js": "/c3churchwebsite/precache-manifest.59963fb81511d8d1350d68a3e390ec2d.js",
+    "precache-manifest.9958ca61eeca7ac29774b801d5c67819.js": "/c3churchwebsite/precache-manifest.9958ca61eeca7ac29774b801d5c67819.js",
     "service-worker.js": "/c3churchwebsite/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/c3churchwebsite/static/css/2.de424728.chunk.css.map",
-    "static/css/main.af3d014c.chunk.css.map": "/c3churchwebsite/static/css/main.af3d014c.chunk.css.map",
-    "static/js/2.53cd257f.chunk.js.LICENSE.txt": "/c3churchwebsite/static/js/2.53cd257f.chunk.js.LICENSE.txt",
+    "static/css/main.e2b5f74f.chunk.css.map": "/c3churchwebsite/static/css/main.e2b5f74f.chunk.css.map",
+    "static/js/2.a3bfef72.chunk.js.LICENSE.txt": "/c3churchwebsite/static/js/2.a3bfef72.chunk.js.LICENSE.txt",
     "static/media/Neghema.jpg": "/c3churchwebsite/static/media/Neghema.fbef5fe8.jpg",
     "static/media/annet.jpg": "/c3churchwebsite/static/media/annet.93afb056.jpg",
     "static/media/benson.jpg": "/c3churchwebsite/static/media/benson.d1403036.jpg",
@@ -30,8 +30,8 @@
   "entrypoints": [
     "static/js/runtime-main.e36e6d6f.js",
     "static/css/2.de424728.chunk.css",
-    "static/js/2.53cd257f.chunk.js",
-    "static/css/main.af3d014c.chunk.css",
-    "static/js/main.ee1935a0.chunk.js"
+    "static/js/2.a3bfef72.chunk.js",
+    "static/css/main.e2b5f74f.chunk.css",
+    "static/js/main.fb2c4e53.chunk.js"
   ]
 }
