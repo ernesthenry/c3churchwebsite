@@ -1,6 +1,5 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card'
-import robert from './images/robert.jpg'
 import benson from './images/benson.jpg'
 import Neghema from './images/Neghema.jpg'
 import annet from './images/annet.jpg'
@@ -13,7 +12,7 @@ const ExecutiveTeam = () => {
          <h2 className="text-center">The Executive Team</h2>
         <p className="mt-3 text-center" style={{"font-size":"20px"}}>Meet our Location Directors across  four locations</p>
         <div className="row mb-5">
-            <div className='col-xs-3 col-md-3'>
+            <div className='col-sm-6 col-xs-6 col-md-3'>
                 <Card  className="executives">
                     <Card.Img variant="top" src={annet} className="image"/>
                     <Card.Body>
@@ -27,7 +26,7 @@ const ExecutiveTeam = () => {
             
             </div>
         
-            <div className='col-xs-3 col-md-3'>
+            <div className='col-sm-6 col-xs-6 col-md-3'>
                 <Card className="executives">
                     <Card.Img variant="top" src={Neghema} />
                     <Card.Body>
@@ -40,7 +39,7 @@ const ExecutiveTeam = () => {
                 </Card>
             </div>
 
-            <div className='col-xs-3 col-md-3'>
+            <div className='col-sm-6 col-xs-6 col-md-3'>
                 <Card className="executives">
                     <Card.Img variant="top" src={benson} />
                     <Card.Body>
@@ -52,7 +51,7 @@ const ExecutiveTeam = () => {
                     </Card.Body>
                 </Card>
             </div>
-            <div className='col-xs-3 col-md-3'>
+            <div className='col-sm-6 col-xs-6 col-md-3'>
                 <Card className="executives">
                     <Card.Img variant="top" src={fabian} />
                     <Card.Body>
