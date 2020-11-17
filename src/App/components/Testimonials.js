@@ -8,7 +8,7 @@ const Testimonials = () => {
         <div className='container'>
             <div className="testimonials">
             <h1>Testimonials</h1>
-            <p class="text-center">Lorem ipsum dolor sit amet.</p>
+            <p class="text-center" style={{fontWeight:'bold'}}>Awesome testimonies from our own members.</p>
             <div className='row'>
                 <div className='col-sm-6 col-xs-6 col-md-4 text-center testimony'>
                     <div className="profile">

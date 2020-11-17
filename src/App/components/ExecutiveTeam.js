@@ -10,7 +10,7 @@ const ExecutiveTeam = () => {
     return(
         <div className='container text-center executive-teams'>
          <h2 className="text-center">The Executive Team</h2>
-        <p className="mt-3 text-center" style={{"font-size":"20px"}}>Meet our Location Directors across  four locations</p>
+        <p className="mt-3 text-center" style={{"font-size":"20px", fontWeight:'bold'}}>Meet our location directors across  four locations in Uganda</p>
         <div className="row mb-5">
             <div className='col-sm-6 col-xs-6 col-md-3'>
                 <Card  className="executives">

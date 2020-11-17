@@ -8,138 +8,96 @@ import edwin from './images/edwin.jpg'
 const LocationPastors = () => {
     return(
         <div className='container location-pastors'>
-            <div className="team my-3 py-5 text-center" >
-        <div className="mb-5 text-center ">
-        <h2>Location Pastors</h2>
-        <p className="mt-3" style={{"font-size": "20px"}}>Meet our Location pastors across four locations in Uganda</p>
-        </div>
-         
-        <div className="row pastors">
-            <div className='col-xs-6 col-md-3'>
-                <Card className="location-pastors">
-                    <Card.Img variant="top" src={edwin} className="img-fluid rounded-circle w-50 mb-3"/>
-                    <Card.Body>
-                        <Card.Title><h3>Edwin</h3></Card.Title>
-                        <Card.Text>
+                <h2>Location Pastors</h2>
+                <p className="mt-3 text-center" style={{"font-size": "20px", fontWeight: 'bold'}}>Meet our location pastors across four locations in Uganda</p>    
+                <div className="row mb-5">
+                    <div className='col-xs-6 col-md-3'>
+                        <div className="location-pastor">
+                            <img src={edwin} className="img-fluid rounded-circle w-50 mb-3"/>
+                            <h3>Masereka Edwin</h3>
                             <h5><i>Location Pastor - Kabalagala</i></h5>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, earum.</p>
+                        
                             <div className="d-flex flex-row justify-content-center">
                                 <div className="p-4">
-                                    <Card.Link href="#">
-                                        <i className="fa fa-facebook"></i>
-                                    </Card.Link>
+                                    <a href="#"><i className="fa fa-facebook"></i></a>
                                 </div>
                                 <div className="p-4">
-                                    <Card.Link href="#">
-                                        <i className="fa fa-twitter"></i>
-                                    </Card.Link>
+                                    <a href="#"><i className="fa fa-twitter"></i></a>
                                 </div>
                                 <div className="p-4">
-                                    <Card.Link href="#">
-                                        <i className="fa fa-instagram"></i>
-                                    </Card.Link>
+                                    <a href="#"><i className="fa fa-instagram"></i></a>
                                 </div>
                             </div>
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
+                        </div>
+                    </div>
             
-            </div>
-        
-            <div className='col-xs-6 col-md-3'>
-                <Card className="location-pastors">
-                    <Card.Img variant="top" src={wairege} className="img-fluid rounded-circle w-50 mb-3" />
-                    <Card.Body>
-                        <Card.Title><h3>Wairege Ahmed</h3></Card.Title>
-                        <Card.Text>
+                    <div className='col-xs-6 col-md-3'>
+                        <div className="location-pastor">
+                            <img src={wairege} className="img-fluid rounded-circle w-50 mb-3"/>
+                            <h3>Wairege Ahmed</h3>
                             <h5><i>Location Pastor - Bwera</i></h5>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, earum.</p>
                             <div className="d-flex flex-row justify-content-center">
                                 <div className="p-4">
-                                    <Card.Link href="#">
-                                        <i className="fa fa-facebook"></i>
-                                    </Card.Link>
+                                    <a href="#"><i className="fa fa-facebook"></i></a>
                                 </div>
                                 <div className="p-4">
-                                    <Card.Link href="#">
-                                        <i className="fa fa-twitter"></i>
-                                    </Card.Link>
+                                    <a href="#"><i className="fa fa-twitter"></i></a>
                                 </div>
                                 <div className="p-4">
-                                    <Card.Link href="#">
-                                        <i className="fa fa-instagram"></i>
-                                    </Card.Link>
+                                    <a href="#"><i className="fa fa-instagram"></i></a>
                                 </div>
                             </div>
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-            </div>
-
-            <div className='col-xs-6 col-md-3'>
-                <Card className="location-pastors">
-                    <Card.Img variant="top" src={chris} className="img-fluid rounded-circle w-50 mb-3"/>
-                    <Card.Body>
-                        <Card.Title><h3>Chris</h3></Card.Title>
-                        <Card.Text>
-                            <h5>Location Pastor - Kasese</h5>
+                        </div>
+                        </div>
+            
+            
+                    <div className='col-xs-6 col-md-3'>
+                        <div className="location-pastor">
+                            <img src={chris} className="img-fluid rounded-circle w-50 mb-3"/>
+                            <h3>Chris</h3>
+                            <h5><i>Location Pastor - Kasese</i></h5>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, earum.</p>
                             <div className="d-flex flex-row justify-content-center">
                                 <div className="p-4">
-                                    <Card.Link href="#">
-                                        <i className="fa fa-facebook"></i>
-                                    </Card.Link>
+                                    <a href="#"><i className="fa fa-facebook"></i></a>
                                 </div>
                                 <div className="p-4">
-                                    <Card.Link href="#">
-                                        <i className="fa fa-twitter"></i>
-                                    </Card.Link>
+                                    <a href="#"><i className="fa fa-twitter"></i></a>
                                 </div>
                                 <div className="p-4">
-                                    <Card.Link href="#">
-                                        <i className="fa fa-instagram"></i>
-                                    </Card.Link>
+                                    <a href="#"><i className="fa fa-instagram"></i></a>
                                 </div>
                             </div>
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-            </div>
-
-            <div className='col-xs-6 col-md-3'>
-            <Card className="location-pastors"><Card.Img variant="top" src={fabian} className="img-fluid rounded-circle w-50 mb-3"/>
-                    <Card.Body>
-                        <Card.Title><h3>Fabian Semugenyi</h3></Card.Title>
-                        <Card.Text>
-                            <h5>Location Pastor - Matugga</h5>
+                        </div>
+                    </div>
+            
+                    <div className='col-xs-6 col-md-3'>
+                        <div className="location-pastor">
+                            <img src={fabian} className="img-fluid rounded-circle w-50 mb-3"/>
+                            <h3>Fabian Ssemugenyi</h3>
+                            <h5><i>Location Pastor - Matugga</i></h5>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, earum.</p>
                             <div className="d-flex flex-row justify-content-center">
                                 <div className="p-4">
-                                    <Card.Link href="#">
-                                        <i className="fa fa-facebook"></i>
-                                    </Card.Link>
+                                    <a href="#"><i className="fa fa-facebook"></i></a>
                                 </div>
                                 <div className="p-4">
-                                    <Card.Link href="#">
-                                        <i className="fa fa-twitter"></i>
-                                    </Card.Link>
+                                    <a href="#"><i className="fa fa-twitter"></i></a>
                                 </div>
                                 <div className="p-4">
-                                    <Card.Link href="#">
-                                        <i className="fa fa-instagram"></i>
-                                    </Card.Link>
+                                    <a href="#"><i className="fa fa-instagram"></i></a>
                                 </div>
-                            </div>
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
-            </div>
-
+                            </div>     
+                        </div>
+                    </div>
+            
 
             </div>
+
             </div>
 
-        </div>
     
     )
 }

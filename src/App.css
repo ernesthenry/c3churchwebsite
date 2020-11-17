@@ -4,6 +4,10 @@ body {
     padding: 0%;
     font-family: "Lato";
 }
+
+body p{
+  font-size: 20px !important;
+}
 .top-bar span{
   font-size: 12px;
   padding: 1px 5px;
@@ -54,7 +58,7 @@ body {
 
 .vision  img{
   height: 50vh;
-  width: 50%;
+  width: 90%;
   margin: 12px;
   border-radius: 20px;
   padding: 10px;
@@ -64,10 +68,17 @@ body {
 .location-pastors{
   height: 100%;
   font-size: 20px;
-  margin: 50px auto;}
+}
+.location-pastor{
+  padding: 70px 10px;
+  height: 70%;
+  border: 1px solid black;
+  margin: 50px auto;
+}
 
-.location-pastors img{
-  height: 30%;
+.location-pastor img{
+  height: 35%;
+  
 }
 
 
