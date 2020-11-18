@@ -44,17 +44,17 @@ const NavBar = () => {
         
         <Container fluid className="Navbar">
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand href="#home" className="navbar-brand"><img  src={logoc3} alt="logo"/> <i>ALIVE</i></Navbar.Brand>
+                <Navbar.Brand href="/" className="navbar-brand"><img  src={logoc3} alt="logo"/> <i>ALIVE</i></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
                         <NavLink to='/' className="nav-link">HOME</NavLink>
-                        <NavLink to='/about-us' className="nav-link">ABOUT</NavLink>
-                        <NavLink to='/ministries' className="nav-link">SERVING TEAMS</NavLink>
-                        <NavLink to='/giving' className="nav-link">GIVING</NavLink>
-                        <NavLink to='/contact-us' className="nav-link">CONTACT US</NavLink>
-                        <NavLink to='/vision-builders' className="nav-link">VISION BUILDERS</NavLink>
-                        <NavLink to='/next-steps' className="nav-link">NEXT STEPS</NavLink>
+                        <NavLink to='/' className="nav-link">ABOUT</NavLink>
+                        <NavLink to='/' className="nav-link">SERVING TEAMS</NavLink>
+                        <NavLink to='/' className="nav-link">GIVING</NavLink>
+                        <NavLink to='/' className="nav-link">CONTACT US</NavLink>
+                        <NavLink to='/' className="nav-link">VISION BUILDERS</NavLink>
+                        <NavLink to='/' className="nav-link">NEXT STEPS</NavLink>
 
                     </Nav>
                     

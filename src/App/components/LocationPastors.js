@@ -1,5 +1,4 @@
 import React from 'react'
-import Card from 'react-bootstrap/Card'
 import wairege from './images/wairege.jpg'
 import fabian from './images/fabian.jpg'
 import chris from './images/chris.jpg'
@@ -9,7 +8,7 @@ const LocationPastors = () => {
     return(
         <div className='container location-pastors'>
                 <h2>Location Pastors</h2>
-                <p className="mt-3 text-center" style={{"font-size": "20px", fontWeight: 'bold'}}>Meet our location pastors across four locations in Uganda</p>    
+                <p className="mt-3 text-center" style={{"font-size": "20px", fontWeight: 'bold'}}>Meet our location pastors across four locations in Uganda.</p>    
                 <div className="row mb-5">
                     <div className='col-xs-6 col-md-3'>
                         <div className="location-pastor">

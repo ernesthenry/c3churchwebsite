@@ -2,12 +2,24 @@
 body {
     margin: 0%;
     padding: 0%;
-    font-family: "Lato";
+    font-family: "Montserrat" !important;
 }
 
 body p{
   font-size: 20px !important;
 }
+
+body h3{
+  font-family: 'Pacifico' !important;
+  text-align: center;
+  font-weight: bold ;
+}
+body  h5, h6{
+  text-align: center;
+  font-weight: bold;
+}
+
+
 .top-bar span{
   font-size: 12px;
   padding: 1px 5px;
@@ -37,11 +49,6 @@ body p{
 .active .nav-link {
   color: #00e8e8 !important;
 }
-/* .latest-sermon{
-  background-image: url(./images/preaching.png);
-  background-attachment: fixed;
-  background-size: cover;
-} */
 
 .lead  img{
   height: 85vh;
@@ -66,19 +73,20 @@ body p{
 }
 
 .location-pastors{
-  height: 100%;
   font-size: 20px;
 }
 .location-pastor{
   padding: 70px 10px;
-  height: 70%;
+  height: 100vh;
   border: 1px solid black;
   margin: 50px auto;
 }
 
 .location-pastor img{
-  height: 35%;
-  
+   height: 35%;
+   margin-left:25%;  
+   margin-right: 5%;  
+   width: 100%;  
 }
 
 
@@ -131,6 +139,11 @@ body p{
   margin: 20px auto 5px;
 
 }
+.location-pastor:hover{
+  box-shadow: 0 0 15px 5px #ff9800;
+  cursor: pointer;
+  transition: 0.5s;
+} 
 
 
 .team h1{
