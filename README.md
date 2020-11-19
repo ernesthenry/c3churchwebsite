@@ -4,6 +4,9 @@
 
 In the project directory, you can run:
 
+### `npm install`
+
+and the run:
 
 ### `npm start`
 
