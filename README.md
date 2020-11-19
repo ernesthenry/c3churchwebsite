@@ -1,4 +1,4 @@
-C3 Alive church website. A multi-site church with four locations across Uganda
+## C3 Alive church website. A multi-site church with four locations across Uganda
 
 ## Project Setup
 
