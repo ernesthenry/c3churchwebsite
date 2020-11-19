@@ -1,6 +1,6 @@
 C3 Alive church website. A multi-site church with four locations across Uganda
 
-## Available Scripts
+## Project Setup
 
 In the project directory, you can run:
 
